@@ -1,7 +1,1 @@
-## Hi there 👋
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Loris383v/Loris383v/snek/snek-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Loris383v/Loris383v/snek/snek.svg">
-  <img alt="github contribution snek" src="https://raw.githubusercontent.com/Loris383v/Loris383v/snek/snek.svg">
-</picture>
+<img width="854" height="480" alt="blow" src="https://github.com/user-attachments/assets/7da341f5-0689-4fcb-a7d0-058f33e96cd2" />
