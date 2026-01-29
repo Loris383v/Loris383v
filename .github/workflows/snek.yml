@@ -3,7 +3,7 @@ name: generate-snek
 on:
   # evry 12 hours
   schedule:
-    - cron: "0 */12 * * *" 
+    - cron: "0 */6 * * *" 
   
   # launch it manually
   workflow_dispatch:
@@ -17,16 +17,24 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
     steps:
+      # sneka change color eveytime for no reason lel
+      - name: pick-random-color
+        run: |
+          HEX="$(openssl rand -hex 3)"
+          COLOR="#${HEX}"
+          echo "COLOR=${COLOR}" >> $GITHUB_ENV
+          echo "Picked color: ${COLOR}"
+        shell: bash
+
       # gen da snek
       - name: generate-snek-game
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snek.svg?color_snake=blue
-            dist/snek-dark.svg?palette=github-dark&color_snake=blue
+            dist/snek.svg?color_snake=${{ env.COLOR }}
+            dist/snek-dark.svg?palette=github-dark&color_snake=${{ env.COLOR }}
 
       # send it in a different branch
       - name: push-snek-to-output
