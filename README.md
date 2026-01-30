@@ -1,7 +1,7 @@
 <table>
   <thead>
     <th><a href="https://github.com/Loris383v"><img width="36" height="36" alt="Github" src="https://github.com/user-attachments/assets/4a1cd623-98e0-4873-b070-04b842d98fab" /></a></th>
-    <th><a href="mailto:loris383@outlook.fr"><img width="36" height="36" alt="Gmail" src="https://github.com/user-attachments/assets/e19332cd-f98c-48f1-92bf-ad7d7e1c066e" /></a></th>
+    <th><a href="mailto:loris383@outlook.fr"><img width="36" height="36" alt="Email" src="https://github.com/user-attachments/assets/e19332cd-f98c-48f1-92bf-ad7d7e1c066e" /></a></th>
     <th><a href="https://t.me/loris383"><img width="36" height="36" alt="Telegram" src="https://github.com/user-attachments/assets/c5b9b5a9-27f4-41c0-8835-dd2b886d3cff" /></a></th>
     <th><a href="https://discord.com/users/1161686474094301367"><img width="36" height="36" alt="Discord" src="https://github.com/user-attachments/assets/d30207bc-a0b2-452e-8aa3-f551e9f8e980" /></a></th>
     <th><a href="https://www.instagram.com/loris383v"><img width="36" height="36" alt="Instagram" src="https://github.com/user-attachments/assets/1fea3585-9c44-4149-b92d-3eb6a30edd52" /></a></th>
